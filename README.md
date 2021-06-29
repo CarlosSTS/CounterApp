@@ -11,8 +11,8 @@ O app contém os seguintes módulos
 * uma tela que pega esse número como paramêtro
 
 ## páginas
-![Foto do App dashboard](https://github.com/CarlosSTS/GitList-web/blob/master/assets/dashboard.png)
-![Foto do App detalhe](https://github.com/CarlosSTS/GitList-web/blob/master/assets/detail.png)
+![Foto do App dashboard](https://github.com/CarlosSTS/CounterAPP/blob/master/assets/dashboard.png)
+![Foto do App detalhe](https://github.com/CarlosSTS/CounterAPP/blob/master/assets/detail.png)
 
 ## Testando
 RODANDO O PROJETO
