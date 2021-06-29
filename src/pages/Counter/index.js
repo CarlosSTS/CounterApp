@@ -1,35 +1,35 @@
 import React, { useState } from 'react';
-import { Text,View, StyleSheet, Button } from 'react-native';
-import {useNavigation} from '@react-navigation/native'
+import { Text, View, StyleSheet, Button } from 'react-native';
+import { useNavigation } from '@react-navigation/native'
 
 export default function Counter() {
+  const navigation = useNavigation();
   const [counter, setConuter] = useState(0)
-const navigation =useNavigation();
+
   function CounterAdd() {
     setConuter(counter + 1)
   }
 
-  function NavigateToDetail(counter){
-    navigation.navigate('Detail',{counter})
+  function NavigateToDetail(counter) {
+    navigation.navigate('Detail', { counter })
   }
+
   return (
     <View style={styles.container}>
       <Text style={styles.number}>Contador:{counter}</Text>
 
-      <Button title="Adicionar" 
-      color="#0ff" 
-      onPress={CounterAdd}>
+      <Button title="Adicionar"
+        color="#132742"
+        onPress={CounterAdd}>
       </Button>
-      
-      <Button  title="Ir para detalhe"
-       color="#0f0"
+      <View style={{ marginTop: 8 }} />
+      <Button title="Ir para detalhe"
+        color="#33dd99"
         onPress={() => NavigateToDetail(counter)}>
-        </Button>
-
+      </Button>
     </View>
   )
 }
-
 
 const styles = StyleSheet.create({
   container: {
@@ -41,6 +41,6 @@ const styles = StyleSheet.create({
   number: {
     fontWeight: "bold",
     fontSize: 20,
-    color: "#f0f",
+    color: "#fff",
   }
 })
