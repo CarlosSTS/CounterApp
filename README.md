@@ -2,7 +2,6 @@
 
 Um contador feito em React-Native e expo para fins educativos.
 
-
 ## módulos
 
 O app contém os seguintes módulos
