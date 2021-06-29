@@ -11,18 +11,14 @@ O app contém os seguintes módulos
 * uma tela que pega esse número como paramêtro
 
 ## páginas
-![Foto do App](https://github.com/CarlosSTS/CounterAPP/blob/master/gifProject.gif)
+![Foto do App dashboard](https://github.com/CarlosSTS/GitList-web/blob/master/assets/dashboard.png)
+![Foto do App detalhe](https://github.com/CarlosSTS/GitList-web/blob/master/assets/detail.png)
 
 ## Testando
 RODANDO O PROJETO
 * yarn install=>  para instalar as  Dependências do projeto
 * yarn start => para inicializar o projeto
 * yarn android => para executar o projeto no emulador android
-**(NECESSÁRIO EMULADOR ABERTO)**
-* yarn ios => Para executar no emulador iOS
-**(NÃO NECESSITA DO EMULADOR ABERTO)**
-
-****
 
 ## Feito por
 
