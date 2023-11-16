@@ -10,8 +10,13 @@ O app contém os seguintes módulos
 * uma tela que pega esse número como paramêtro
 
 ## páginas
-![Foto do App dashboard](https://github.com/CarlosSTS/CounterAPP/blob/master/assets/dashboard.png)
-![Foto do App detalhe](https://github.com/CarlosSTS/CounterAPP/blob/master/assets/detail.png)
+
+<table>
+  <tr>
+<td><img src="https://github.com/CarlosSTS/CounterAPP/blob/master/assets/dashboard.png" alt="Foto do App dashboard" width="360" /></td>
+<td><img src="https://github.com/CarlosSTS/CounterAPP/blob/master/assets/detail.png" alt="Foto do detalhe Dashboard" width="360" /></td>
+</tr>
+</table>
 
 ## Testando
 RODANDO O PROJETO
